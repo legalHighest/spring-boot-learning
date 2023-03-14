@@ -1,0 +1,14 @@
+person:
+  id: 2
+  name: 张三
+  hobby:
+    - play
+    - read
+    - sleep
+  family:
+    [ father,mother ]
+  map: { k1: v1, k2: v2 }
+  pet: { type: cat, name: tom }
+##  全局配置
+student:
+  name: 张2
