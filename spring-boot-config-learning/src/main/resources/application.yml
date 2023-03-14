@@ -12,3 +12,6 @@ person:
 ##  全局配置
 student:
   name: 张2
+spring:
+  profiles:
+    active: test
