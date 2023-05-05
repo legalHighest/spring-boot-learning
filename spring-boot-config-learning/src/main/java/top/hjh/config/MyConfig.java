@@ -14,7 +14,6 @@ import top.hjh.service.MyService;
  **/
 
 @Data
-
 @PropertySource("classpath:my.properties")//指定自定义配置文件的位置和名称
 @ConfigurationProperties(prefix = "config")//指定配置文件的注入属性的前缀
 @Configuration

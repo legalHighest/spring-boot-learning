@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/spring-boot-acturtor-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-admin-server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-cache-redis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-cache/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-config-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-data-learn/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-data-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-docs-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-email/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-exception-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-file-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-filter-interceptor/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-filter-listen-test/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-log-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-server-push/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-task-learning/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

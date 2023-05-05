@@ -37,6 +37,45 @@
         <module>
             spring-boot-config-learning
         </module>
+
+        <module>
+            spring-boot-filter-listen-test
+        </module>
+        <module>
+            spring-boot-exception-learning
+        </module>
+        <module>
+            spring-boot-log-learning
+        </module>
+        <module>
+            spring-boot-task-learning
+        </module>
+        <module>
+            spring-boot-file-learning
+        </module>
+        <module>
+            spring-boot-cache
+        </module>
+        <module>
+            spring-boot-cache-redis
+        </module>
+        <module>
+            spring-boot-server-push
+        </module>
+        <module>
+            spring-boot-email
+        </module>
+        <module>
+            spring-boot-acturtor-learning
+        </module>
+        <module>
+            spring-boot-admin-server
+        </module>
+        <module>
+            spring-boot-docs-learning
+        </module>
+
+
     </modules>
     <!--    打包类型jar包-->
     <packaging>pom</packaging>
@@ -44,8 +83,11 @@
         <java.version>
             17
         </java.version>
-        <lombok.version>1.18.12</lombok.version>
         <fastjson.version>1.2.83</fastjson.version>
+<mysql.version>8.0.26</mysql.version>
+        <mybatis-starter.version>3.0.1</mybatis-starter.version>
+
+<!--        添加数据库版本-->
     </properties>
     <dependencies>
         <dependency>
@@ -55,6 +97,24 @@
             <artifactId>
                 spring-boot-starter
             </artifactId>
+            <exclusions>
+                <exclusion>
+                    <artifactId>
+                        logback-classic
+                    </artifactId>
+                    <groupId>
+                        ch.qos.logback
+                    </groupId>
+                </exclusion>
+                <exclusion>
+                    <artifactId>
+                        spring-boot-starter-logging
+                    </artifactId>
+                    <groupId>
+                        org.springframework.boot
+                    </groupId>
+                </exclusion>
+            </exclusions>
         </dependency>
 
         <dependency>
@@ -70,8 +130,27 @@
         </dependency>
 
         <dependency>
+            <groupId>
+                org.springframework.boot
+            </groupId>
+            <artifactId>
+                spring-boot-starter-log4j2
+            </artifactId>
+        </dependency>
+        <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.hibernate.validator</groupId>
+            <artifactId>hibernate-validator</artifactId>
+            <version>8.0.0.Final</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
         </dependency>
     </dependencies>
 

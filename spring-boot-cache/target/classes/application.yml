@@ -1,0 +1,28 @@
+spring:
+  datasource:   # 数据库连接配置
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/spring_boot_cache?serverTimezone=UTC&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowMultiQueries=true
+    username: root
+    password: 123456
+  cache:
+    redis:
+      key-prefix: boot_
+
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+      password:
+
+
+#mybatis:
+#  configuration:
+#    map-underscore-to-camel-case: true        # 配置驼峰映射
+#  mapper-locations: classpath:mapper/*.xml    # 配置MyBatis的xml配置文件路径
+#  type-aliases-package: top.hjh.domain  # 配置XML映射文件中指定的实体类别名路径
+#logging:
+#  level:
+#    top:
+#      hjh:
+#        mapper:
+#          UserMapper: debug

@@ -46,5 +46,45 @@
             <optional>true</optional>
         </dependency>
 
+
+        <dependency>
+            <groupId>com.aliyun.oss</groupId>
+            <artifactId>aliyun-sdk-oss</artifactId>
+            <version>3.16.1</version>
+        </dependency>
+        <dependency>
+            <groupId>
+                org.springframework.boot
+            </groupId>
+            <artifactId>
+                spring-boot-starter-actuator
+            </artifactId>
+        </dependency>
     </dependencies>
+    <build>
+        <!--重命名打包-->
+        <finalName>spring-boot-config</finalName>
+        <plugins>
+            <!-- Maven 区别对待 Java代码文件和资源文件，maven-compiler-plugin 用来编译Java代码，maven-resources-plugin 则用来处理资源文件 -->
+            <!-- 如果子项目并不是单独的 Spring Boot 项目，不能独立启动，则父工程不能使用此插件，应该放在能启动服务的子项目中 -->
+            <!-- Spring Boot 项目使用 Spring Boot 打包插件-->
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <!-- 如果没有该配置，devtools不会生效 -->
+                    <!-- 指定该类为全局的唯一入口 -->
+                    <mainClass>top.hjh.Application</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <!--可以把依赖的包都打包到生成的可执行Jar包中-->
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
 </project>

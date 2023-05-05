@@ -1,0 +1,8 @@
+top\hjh\prop\MyProperties.class
+META-INF\spring-configuration-metadata.json
+top\hjh\domain\Person.class
+top\hjh\config\MyConfig.class
+top\hjh\service\MyService.class
+top\hjh\Application.class
+top\hjh\domain\Pet.class
+top\hjh\domain\Student.class

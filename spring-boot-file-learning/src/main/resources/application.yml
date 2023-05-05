@@ -1,0 +1,10 @@
+web:
+  upload-path: D:\learning\after-end\upload\
+spring:
+  web:
+    resources:
+      static-locations: classpath:/static/,file:${web.upload-path}
+minio:
+  endPoint: http://43.137.12.232:9000
+  accessKey: admin
+  secretKey: 12345678

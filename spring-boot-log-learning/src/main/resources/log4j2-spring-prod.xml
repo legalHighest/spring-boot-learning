@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration status="warn">
+    <appenders>
+        <Console name="Console" target="SYSTEM_OUT">
+            <PatternLayout
+                    pattern="[%style{%d}{bright,yellow}][%highlight{%p}][%style{%t}{bright,blue}][%style{%C}{bright,cyan}]: %msg%n%style{%throwable}{red}">
+            </PatternLayout>
+        </Console>
+
+        <!--        <RollingFile name="RollingFile" fileName="/Users/29758/Desktop/logs/application.log"-->
+        <!--                     filePattern="${/Users/29758/Desktop/logs/application-%d{yyyy-MM-dd}.log.gz"-->
+        <!--                     ignoreExceptions="false">-->
+        <!--            <PatternLayout>-->
+        <!--                <pattern>%d %p %c{1.} [%t] %m%n</pattern>-->
+        <!--            </PatternLayout>-->
+        <!--            <Policies>-->
+        <!--                <TimeBasedTriggeringPolicy/>-->
+        <!--                <SizeBasedTriggeringPolicy size="100 MB"/>-->
+        <!--            </Policies>-->
+        <!--        </RollingFile>-->
+    </appenders>
+
+    <loggers>
+        <root level="INFO">
+            <appender-ref ref="Console" level="debug"/>
+            <appender-ref ref="RollingFile" level="info"/>
+        </root>
+    </loggers>
+</configuration>

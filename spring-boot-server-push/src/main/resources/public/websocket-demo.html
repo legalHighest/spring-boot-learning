@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+  <script src="main.js"></script>
+</head>
+<body>
+  <div id="app">
+    <div>
+      <input placeholder="请输入id" v-model="id">
+      <button @click="open()">连接websocket</button>
+    </div>
+    <div>
+      <input placeholder="请输入消息" v-model="content">
+      <button @click="send()" >发送消息</button>
+    </div>
+
+    <div>
+      {{message}}
+    </div>
+  </div>
+
+
+<script>
+  const mountedApp = app.mount('#app');
+</script>
+</body>
+</html>

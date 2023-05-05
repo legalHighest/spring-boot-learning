@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-boot-cache-redis" />
+        <module name="spring-boot-log-learning" />
+        <module name="spring-boot-server-push" />
+        <module name="spring-boot-config-learning" />
+        <module name="spring-boot-admin-server" />
+        <module name="spring-boot-filter-listen-test" />
+        <module name="spring-boot-task-learning" />
+        <module name="spring-boot-file-learning" />
+        <module name="spring-boot-email" />
+        <module name="spring-boot-exception-learning" />
+        <module name="spring-boot-cache" />
+        <module name="spring-boot-docs-learning" />
+        <module name="spring-boot-acturtor-learning" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-boot-data" target="17" />
+      <module name="spring-boot-data-learn" target="17" />
+      <module name="spring-boot-data-learning" target="17" />
+      <module name="spring-boot-filter-interceptor" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="spring-boot-acturtor-learning" options="-parameters" />
+      <module name="spring-boot-admin-server" options="-parameters" />
+      <module name="spring-boot-cache" options="-parameters" />
+      <module name="spring-boot-cache-redis" options="-parameters" />
+      <module name="spring-boot-config-learning" options="-parameters" />
+      <module name="spring-boot-data-learn" options="-parameters" />
+      <module name="spring-boot-data-learning" options="-parameters" />
+      <module name="spring-boot-docs-learning" options="-parameters" />
+      <module name="spring-boot-email" options="-parameters" />
+      <module name="spring-boot-exception-learning" options="-parameters" />
+      <module name="spring-boot-file-learning" options="-parameters" />
+      <module name="spring-boot-filter-interceptor" options="-parameters" />
+      <module name="spring-boot-filter-listen-test" options="-parameters" />
+      <module name="spring-boot-learning" options="" />
+      <module name="spring-boot-log-learning" options="-parameters" />
+      <module name="spring-boot-server-push" options="-parameters" />
+      <module name="spring-boot-task-learning" options="-parameters" />
+    </option>
+  </component>
+</project>

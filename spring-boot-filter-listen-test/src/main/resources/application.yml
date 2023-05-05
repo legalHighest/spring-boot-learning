@@ -1,0 +1,21 @@
+#context:
+#  listener:
+#    classes: top.hjh.listener.MyListener3
+#server:
+#  port: 8002
+#spring:
+#  application:
+#    name: filter-list
+#  boot:
+#    admin:
+#      client:
+#        url: http://localhost:8089
+#management:
+#  endpoint:
+#    health:
+#      show-details: always
+#  endpoints:
+#    web:
+#      exposure:
+#        include: '*'
+#    enabled-by-default: true

@@ -1,0 +1,20 @@
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        exclude: health,info
+#  endpoint:
+#    health:
+#      show-details: always
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    endpoint:
+      health:
+        show-details: always
+
+spring:v
+  profiles:
+    active: dev

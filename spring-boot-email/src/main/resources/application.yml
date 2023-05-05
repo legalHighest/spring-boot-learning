@@ -1,0 +1,17 @@
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 2975800991@qq.com
+    password: qcxqinrqzywhdgec
+    protocol: smtps
+    properties:
+      mail:
+        smtp:
+          auth: true
+          port: 465     #465 或者 587
+    default-encoding: UTF-8
+  freemarker:
+    cache: false
+    suffix: .ftl
+    charset: UTF-8
+    template-loader-path: classpath:/templates/

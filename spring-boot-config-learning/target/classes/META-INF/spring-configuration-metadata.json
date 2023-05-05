@@ -1,0 +1,102 @@
+{
+  "groups": [
+    {
+      "name": "aliyun-oss",
+      "type": "top.hjh.config.OssConfig",
+      "sourceType": "top.hjh.config.OssConfig"
+    },
+    {
+      "name": "config",
+      "type": "top.hjh.config.MyConfig",
+      "sourceType": "top.hjh.config.MyConfig"
+    },
+    {
+      "name": "my",
+      "type": "top.hjh.prop.MyProperties",
+      "sourceType": "top.hjh.prop.MyProperties"
+    },
+    {
+      "name": "person",
+      "type": "top.hjh.domain.Person",
+      "sourceType": "top.hjh.domain.Person"
+    }
+  ],
+  "properties": [
+    {
+      "name": "aliyun-oss.ak",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.bucket",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.dir",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.endpoint",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.host",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.config.OssConfig"
+    },
+    {
+      "name": "aliyun-oss.secret",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.config.OssConfig"
+    },
+    {
+      "name": "my.password",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.prop.MyProperties"
+    },
+    {
+      "name": "my.url",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.prop.MyProperties"
+    },
+    {
+      "name": "my.username",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.prop.MyProperties"
+    },
+    {
+      "name": "person.family",
+      "type": "java.lang.String[]",
+      "sourceType": "top.hjh.domain.Person"
+    },
+    {
+      "name": "person.hobby",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "top.hjh.domain.Person"
+    },
+    {
+      "name": "person.id",
+      "type": "java.lang.Integer",
+      "sourceType": "top.hjh.domain.Person"
+    },
+    {
+      "name": "person.map",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "top.hjh.domain.Person"
+    },
+    {
+      "name": "person.name",
+      "type": "java.lang.String",
+      "sourceType": "top.hjh.domain.Person"
+    },
+    {
+      "name": "person.pet",
+      "type": "top.hjh.domain.Pet",
+      "sourceType": "top.hjh.domain.Person"
+    }
+  ],
+  "hints": []
+}

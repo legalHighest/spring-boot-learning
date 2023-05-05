@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: server-push
+  boot:
+    admin:
+      client:
+        url: http://localhost:8089
+management:
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+    enabled-by-default: true
+
+
+server:
+  port: 8001

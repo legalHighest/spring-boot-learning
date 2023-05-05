@@ -1,0 +1,19 @@
+2023-04-03 14:37:04.959 [32m[0;39m[background-preinit] INFO  o.h.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.0.Final
+2023-04-03 14:37:04.998 [32m[0;39m[main] INFO  top.hjh.LogDemoApplication - Starting LogDemoApplication using Java 17.0.6 with PID 11384 (D:\ideal_project\spring-boot-learning\spring-boot-log-learning\target\classes started by 29758 in D:\ideal_project\spring-boot-learning)
+2023-04-03 14:37:04.999 [32m[0;39m[main] INFO  top.hjh.LogDemoApplication - No active profile set, falling back to 1 default profile: "default"
+2023-04-03 14:37:05.854 [32m[0;39m[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8080 (http)
+2023-04-03 14:37:05.862 [32m[0;39m[main] INFO  o.a.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2023-04-03 14:37:05.863 [32m[0;39m[main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-04-03 14:37:05.863 [32m[0;39m[main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.5]
+2023-04-03 14:37:05.941 [32m[0;39m[main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-04-03 14:37:05.941 [32m[0;39m[main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 899 ms
+2023-04-03 14:37:06.217 [32m[0;39m[main] INFO  o.a.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2023-04-03 14:37:06.236 [32m[0;39m[main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 8080 (http) with context path ''
+2023-04-03 14:37:06.245 [32m[0;39m[main] INFO  top.hjh.LogDemoApplication - Started LogDemoApplication in 1.829 seconds (process running for 2.675)
+2023-04-03 14:37:22.163 [32m[0;39m[http-nio-8080-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-04-03 14:37:22.163 [32m[0;39m[http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-04-03 14:37:22.164 [32m[0;39m[http-nio-8080-exec-1] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-04-03 14:37:22.192 [32m[0;39m[http-nio-8080-exec-1] INFO  top.hjh.controller.LogController - info 日志
+2023-04-03 14:37:22.193 [32m[0;39m[http-nio-8080-exec-1] DEBUG top.hjh.controller.LogController - debug 日志
+2023-04-03 14:37:22.193 [32m[0;39m[http-nio-8080-exec-1] ERROR top.hjh.controller.LogController - error 日志
+2023-04-03 14:37:22.193 [32m[0;39m[http-nio-8080-exec-1] WARN  top.hjh.controller.LogController - warn 日志
